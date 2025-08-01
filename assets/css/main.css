@@ -733,7 +733,7 @@ section,
   background: linear-gradient(45deg, var(--background-color) 0%, color-mix(in srgb, var(--accent-color), transparent 95%) 100%);
   min-height: 80vh;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   position: relative;
   overflow: hidden;
   padding-bottom: 80px;
@@ -784,6 +784,7 @@ section,
   line-height: 1.1;
   margin-bottom: 20px;
   color: var(--heading-color);
+  white-space: nowrap;
 }
 
 @media (max-width: 768px) {
