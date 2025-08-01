@@ -729,15 +729,21 @@ section,
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  padding-top: 80px;
-  background: linear-gradient(45deg, var(--background-color) 0%, color-mix(in srgb, var(--accent-color), transparent 95%) 100%);
-  min-height: 80vh;
+  background-image: url('assets/img/bg/1.png'); /* 👈 Your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   display: flex;
-  align-items: flex-start;
+  align-items: flex-start; /* if you want text at the top */
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  min-height: 80vh;
   position: relative;
   overflow: hidden;
-  padding-bottom: 80px;
 }
+
 
 /*--------------------------------------------------------------
 .hero::before {
